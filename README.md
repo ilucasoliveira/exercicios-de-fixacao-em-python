@@ -32,6 +32,16 @@ Validador de força de senha com score e feedback detalhado.
 - Dicionário de retorno estruturado (`score` + `feedback`)
 - Classificação por faixas de pontuação
 
+### 04 — Processador de Vendas
+Sistema de análise de vendas com ranking de vendedores e filtros estatísticos.
+
+**Praticado:**
+- List comprehension em múltiplos contextos (extração de valores, filtros condicionais)
+- `set()` para remoção de duplicatas
+- `sorted()` + `lambda` + `reverse=True` para ranking decrescente
+- `enumerate()` para numerar posições e resultados
+- Separação entre lógica de processamento (funções que retornam dados) e apresentação (formatação no `main`)
+
 ## Tecnologias
 
 - Python 3.14
