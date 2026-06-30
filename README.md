@@ -42,6 +42,19 @@ Sistema de análise de vendas com ranking de vendedores e filtros estatísticos.
 - `enumerate()` para numerar posições e resultados
 - Separação entre lógica de processamento (funções que retornam dados) e apresentação (formatação no `main`)
 
+### 05 — Sistema de RPG Expandido
+Sistema de batalha em equipe com 3 tipos de personagens construído do zero, aplicando todos os pilares de OOP.
+
+**Praticado:**
+- `ABC` e `@abstractmethod` para impedir instanciação direta da classe base
+- `@property` + `@hp.setter` com `max(0, valor)` para proteger o HP
+- Herança com `super()` em três subclasses (`Mago`, `Guerreiro`, `Curandeiro`)
+- `isinstance()` para diferenciar comportamento por tipo em tempo de execução
+- List comprehension com múltiplas condições para filtrar alvos e aliados vivos
+- `choice()` para seleção aleatória de alvos
+- Refatoração DRY: extração de lógica repetida para método `config_luta()`
+- Debugging de race condition (lista vazia no meio de um turno de batalha)
+
 ## Tecnologias
 
 - Python 3.14
